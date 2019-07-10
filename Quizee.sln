@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{CA17218E-CFAD-4EF0-87FF-3B6A22E63BE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{B5EDA887-B291-45DA-9FB0-0A05CBF05375}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D2944A68-2819-4B5A-8F3F-6A843FA8C2FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{98A1783C-1568-494E-8C69-26773DE340F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{8236882A-CAB5-4D35-8C8F-675C4454AFDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B65C1D0A-A0CD-482E-876C-5860D1C28DFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quizee.Common", "Quizee.Common\Quizee.Common.csproj", "{B726552A-1B9C-4489-BAED-FF1CCDD84C59}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quizee.Domain", "Quizee.Domain\Quizee.Domain.csproj", "{9FCAEA80-5529-482C-B173-BECD0A8225C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quizee.Application", "Quizee.Application\Quizee.Application.csproj", "{33B2069D-DDCB-41AC-91BA-87069DFC5B1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B726552A-1B9C-4489-BAED-FF1CCDD84C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B726552A-1B9C-4489-BAED-FF1CCDD84C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B726552A-1B9C-4489-BAED-FF1CCDD84C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B726552A-1B9C-4489-BAED-FF1CCDD84C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FCAEA80-5529-482C-B173-BECD0A8225C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FCAEA80-5529-482C-B173-BECD0A8225C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FCAEA80-5529-482C-B173-BECD0A8225C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FCAEA80-5529-482C-B173-BECD0A8225C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33B2069D-DDCB-41AC-91BA-87069DFC5B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B2069D-DDCB-41AC-91BA-87069DFC5B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33B2069D-DDCB-41AC-91BA-87069DFC5B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33B2069D-DDCB-41AC-91BA-87069DFC5B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5EDA887-B291-45DA-9FB0-0A05CBF05375} = {CA17218E-CFAD-4EF0-87FF-3B6A22E63BE4}
+		{D2944A68-2819-4B5A-8F3F-6A843FA8C2FC} = {CA17218E-CFAD-4EF0-87FF-3B6A22E63BE4}
+		{98A1783C-1568-494E-8C69-26773DE340F3} = {CA17218E-CFAD-4EF0-87FF-3B6A22E63BE4}
+		{8236882A-CAB5-4D35-8C8F-675C4454AFDD} = {CA17218E-CFAD-4EF0-87FF-3B6A22E63BE4}
+		{B726552A-1B9C-4489-BAED-FF1CCDD84C59} = {B5EDA887-B291-45DA-9FB0-0A05CBF05375}
+		{9FCAEA80-5529-482C-B173-BECD0A8225C6} = {D2944A68-2819-4B5A-8F3F-6A843FA8C2FC}
+		{33B2069D-DDCB-41AC-91BA-87069DFC5B1A} = {D2944A68-2819-4B5A-8F3F-6A843FA8C2FC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {998241B5-69A7-4402-87FE-04F32A67585C}
+	EndGlobalSection
+EndGlobal
