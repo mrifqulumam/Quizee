@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Quizee.Application\Quizee.Application.csproj" />
+    <ProjectReference Include="..\Quizee.Common\Quizee.Common.csproj" />
+  </ItemGroup>
+
+</Project>

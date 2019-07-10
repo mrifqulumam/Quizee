@@ -1,7 +1,7 @@
 ﻿using Quizee.Application.Notifications.Models;
 using System.Threading.Tasks;
 
-namespace Northwind.Application.Interfaces
+namespace Quizee.Application.Interfaces
 {
     public interface INotificationService
     {
